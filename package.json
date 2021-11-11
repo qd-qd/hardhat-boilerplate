@@ -11,7 +11,8 @@
     "eslint:fix": "npm run eslint -- --fix",
     "prettier": "prettier '**/*.{js,ts,json,sol,md}' --check",
     "prettier:fix": "prettier '**/*.{js,ts,json,sol,md}' --write",
-    "typescript:generate": "npx hardhat typechain",
+    "ts:check": "tsc --noEmit",
+    "ts:generate": "npx hardhat typechain",
     "compile": "npx hardhat compile",
     "start": "npx hardhat node"
   },
