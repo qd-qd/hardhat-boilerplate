@@ -1,5 +1,5 @@
 {
-  "name": "hardhat-project",
+  "name": "hardhat-boilerplate",
   "scripts": {
     "prepare": "husky install",
     "test": "npx hardhat test",
